@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "notes": "更新详情见 GitHub Releases",
-  "macosUrl": "https://github.com/Richard102257/NearFlow-releases/releases/download/v1.0.0/NearFlow-1.0.0-arm64.dmg",
-  "macosArm64Url": "https://github.com/Richard102257/NearFlow-releases/releases/download/v1.0.0/NearFlow-1.0.0-arm64.dmg",
-  "macosX64Url": "https://github.com/Richard102257/NearFlow-releases/releases/download/v1.0.0/NearFlow-1.0.0-x86_64.dmg",
-  "windowsUrl": "https://github.com/Richard102257/NearFlow-releases/releases/download/v1.0.0/NearFlow-1.0.0.msi",
-  "linuxUrl": "https://github.com/Richard102257/NearFlow-releases/releases/download/v1.0.0/nearflow_1.0.0-1_amd64.deb",
-  "releasePageUrl": "https://github.com/Richard102257/NearFlow-releases/releases/tag/v1.0.0"
+  "macosUrl": "https://github.com/Richard102257/NearFlow/releases/download/v1.0.0/NearFlow-1.0.0-arm64.dmg",
+  "macosArm64Url": "https://github.com/Richard102257/NearFlow/releases/download/v1.0.0/NearFlow-1.0.0-arm64.dmg",
+  "macosX64Url": "https://github.com/Richard102257/NearFlow/releases/download/v1.0.0/NearFlow-1.0.0-x86_64.dmg",
+  "windowsUrl": "https://github.com/Richard102257/NearFlow/releases/download/v1.0.0/NearFlow-1.0.0.msi",
+  "linuxUrl": "https://github.com/Richard102257/NearFlow/releases/download/v1.0.0/nearflow_1.0.0-1_amd64.deb",
+  "releasePageUrl": "https://github.com/Richard102257/NearFlow/releases/tag/v1.0.0"
 }
