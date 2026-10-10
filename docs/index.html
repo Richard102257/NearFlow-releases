@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="site-description" name="description" content="邻传 NearFlow：让手机截图、文件和剪贴板内容，直接抵达你的电脑。PC 端安装运行，手机端浏览器免安装。">
+    <meta name="theme-color" content="#08131b">
+    <title>邻传 / NearFlow · 让设备彼此靠近</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="邻传 NearFlow 首页">
+          <span class="wordmark-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="20" height="20" aria-hidden="true"><path d="M19 44C32 45 32 20 45 20" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/><circle cx="19" cy="44" r="6.5" fill="#fff"/><circle cx="45" cy="20" r="6.5" fill="#fff"/><circle cx="32" cy="32.4" r="5.5" fill="#F7A35C"/></svg></span>
+          <span>邻传 <em>/ NearFlow</em></span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="主导航">
+          <a href="#features">功能</a>
+          <a href="#how-it-works">怎么用</a>
+          <a href="#privacy">隐私</a>
+          <a href="#download">下载</a>
+          <div class="site-settings" aria-label="网站设置">
+            <label class="site-setting"><span class="setting-label language-label">语言</span><select id="language-select" aria-label="选择语言">
+              <option value="system">跟随系统 · System</option>
+              <option value="zh-CN">简体中文 · 中国</option>
+              <option value="zh-TW">繁體中文 · 台灣</option>
+              <option value="en-US">English · United States</option>
+              <option value="es-ES">Español · España</option>
+              <option value="fr-FR">Français · France</option>
+              <option value="de-DE">Deutsch · Deutschland</option>
+              <option value="ja-JP">日本語 · 日本</option>
+              <option value="ko-KR">한국어 · 대한민국</option>
+              <option value="pt-BR">Português · Brasil</option>
+              <option value="ru-RU">Русский · Россия</option>
+              <option value="ar-SA">العربية · المملكة العربية السعودية</option>
+              <option value="hi-IN">हिन्दी · भारत</option>
+              <option value="id-ID">Bahasa Indonesia · Indonesia</option>
+            </select></label>
+            <label class="site-setting"><span class="setting-label theme-label">主题</span><select id="theme-select" aria-label="选择主题">
+              <option value="system">跟随系统</option>
+              <option value="light">浅色</option>
+              <option value="dark">深色</option>
+            </select></label>
+          </div>
+        </nav>
+        <div class="header-actions">
+          <a class="button button-small button-light" href="#download"><span class="button-copy">下载 PC 端</span> <span aria-hidden="true">↗</span></a>
+          <button class="menu-toggle" type="button" aria-label="打开导航" aria-controls="site-nav" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section-dark" aria-labelledby="hero-title">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow"><span class="signal-dot" aria-hidden="true"></span><span class="eyebrow-copy">PC 安装 · 手机免安装</span></p>
+            <h1 id="hero-title">把屏幕上的那一刻，<span>送到</span>另一台设备。</h1>
+            <p class="hero-lede">邻传是一个本地优先的跨设备工具。手机截图、文件和剪贴板内容，不必经过聊天软件，沿着身边这张 Wi‑Fi 直接抵达电脑。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#download"><span class="button-copy">开始使用 NearFlow</span> <span aria-hidden="true">↗</span></a>
+              <a class="text-link text-link-light" href="#browser"><span class="button-copy">手机直接用浏览器</span> <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-proof" aria-label="产品特点">
+              <span><strong>0</strong> <span class="proof-copy">账号</span></span>
+              <span><strong>1</strong> <span class="proof-copy">张局域网</span></span>
+              <span><strong>∞</strong> <span class="proof-copy">次靠近</span></span>
+            </div>
+          </div>
+
+          <div class="hero-stage" data-reveal aria-label="NearFlow 产品界面预览">
+            <div class="stage-label stage-label-desktop">桌面端 · 正在运行</div>
+            <div class="signal-line signal-line-one" aria-hidden="true"><i></i></div>
+            <div class="signal-line signal-line-two" aria-hidden="true"><i></i></div>
+            <div class="desktop-window app-window">
+              <div class="window-bar">
+                <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                <span>NearFlow</span>
+                <span class="window-status"><b></b> 已连接</span>
+              </div>
+              <div class="desktop-layout">
+                <aside class="desktop-sidebar">
+                  <div class="sidebar-brand"><span><svg viewBox="0 0 64 64" width="13" height="13" aria-hidden="true"><path d="M19 44C32 45 32 20 45 20" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/><circle cx="19" cy="44" r="6.5" fill="#fff"/><circle cx="45" cy="20" r="6.5" fill="#fff"/><circle cx="32" cy="32.4" r="5.5" fill="#F7A35C"/></svg></span><b>NearFlow</b></div>
+                  <div class="sidebar-nav">
+                    <span class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5" /></svg>设备</span>
+                    <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5zM8 8h8v8H8z" /></svg>收件箱</span>
+                    <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h12M6 12h12M6 19h12" /></svg>历史</span>
+                  </div>
+                  <span class="sidebar-settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0-5v3m0 12v3m9-9h-3M6 12H3m15.36-6.36-2.12 2.12M7.76 16.24l-2.12 2.12m12.72 0-2.12-2.12M7.76 7.76 5.64 5.64" /></svg>设置</span>
+                </aside>
+                <div class="desktop-content">
+                  <div class="desktop-heading"><div><small>我的空间</small><h2>设备</h2></div><span class="desktop-avatar">L</span></div>
+                  <div class="desktop-device-card">
+                    <div class="device-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="1" /><path d="M8 21h8M12 18v3" /></svg></div>
+                    <div><strong>MacBook Pro</strong><span><b></b> 在线 · macOS</span></div>
+                    <span class="device-action">默认电脑</span>
+                  </div>
+                  <div class="desktop-transfer-card">
+                    <div class="transfer-card-top"><span>快速发送</span><small>拖放文件到这里</small></div>
+                    <div class="drop-zone"><span class="drop-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0-11L8 8m4-4 4 4M5 15v4h14v-4" /></svg></span><span>把文件放到这里</span></div>
+                  </div>
+                  <div class="desktop-mini-row"><span>剪贴板同步</span><strong>已开启</strong><i></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-window app-window">
+              <div class="phone-notch" aria-hidden="true"></div>
+              <div class="phone-bar"><span>9:41</span><span>● ● ▰</span></div>
+              <div class="phone-content">
+                <span class="phone-kicker">临时访客</span>
+                <h3>发给电脑</h3>
+                <div class="phone-connected"><span class="online-ring"><b></b></span><div><strong>MacBook Pro</strong><small>NearFlow PC · 在线</small></div><span class="phone-time">04:32</span></div>
+                <div class="phone-pickers"><div><span class="picker-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" /><circle cx="9" cy="9" r="1.5" /><path d="m5 17 4-4 3 3 2-2 5 5" /></svg></span><strong>照片</strong><small>相册 / 拍照</small></div><div><span class="picker-symbol picker-file"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h5M9 13h6M9 17h6" /></svg></span><strong>文件</strong><small>多选发送</small></div></div>
+                <div class="phone-clipboard"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="12" height="15" rx="2" /><path d="M9 5V3h6v2M9 10h6M9 14h4" /></svg></span><div><strong>剪贴板</strong><small>文字和链接</small></div><b>→</b></div>
+              </div>
+            </div>
+            <div class="stage-note"><span>一台电脑</span><i aria-hidden="true"></i><span>任意手机</span></div>
+          </div>
+        </section>
+
+        <section class="intro section-light" id="features" aria-labelledby="features-title">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">NEARBY, NOT CLOUDY</span></p>
+            <h2 id="features-title">近一点，事情就简单了。</h2>
+            <p>它不试图成为另一个聊天软件。邻传只做一件事：把你正在看的、正在复制的、刚刚截下的内容，可靠地送到你手边的设备。</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-featured" data-reveal>
+              <div class="feature-icon feature-icon-coral"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5zM8 15l2-2 2 2 3-4 2 2" /><circle cx="9" cy="9" r="1" /></svg></div>
+              <span class="feature-index">01 / 截图直达</span>
+              <h3>截完就到，<br>不用再找自己。</h3>
+              <p>Android 可在截屏后自动发送到默认电脑；iPhone 用分享扩展或快捷指令，两步完成。</p>
+              <a class="card-link" href="#screenshot"><span class="button-copy">了解截图直达</span> <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon feature-icon-teal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h8a3 3 0 0 1 0 6H8a3 3 0 0 1 0-6Zm0 6h8a3 3 0 0 1 0 6H8a3 3 0 0 1 0-6Z" /><path d="M8 10h8" /></svg></div>
+              <span class="feature-index">02 / 剪贴板</span>
+              <h3>复制一次，<br>到处都能粘。</h3>
+              <p>文本和链接在可信设备间同步，写入前后都有状态反馈，自动防止同步回环。</p>
+              <a class="card-link" href="#clipboard"><span class="button-copy">查看剪贴板</span> <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon feature-icon-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h6l2 2h8v10H4zM4 7V5h6l2 2" /><path d="M8 13h8M8 16h5" /></svg></div>
+              <span class="feature-index">03 / 批量导出</span>
+              <h3>一整个相册，<br>一次交给电脑。</h3>
+              <p>照片和文件批量选择，保留原名，按日期归档，同名同内容自动跳过。</p>
+              <a class="card-link" href="#batch"><span class="button-copy">了解批量导出</span> <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon feature-icon-ink"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="13" rx="2" /><path d="M8 21h8M12 18v3M8 9h8M8 13h5" /></svg></div>
+              <span class="feature-index">04 / 临时访客</span>
+              <h3>手机不用装，<br>扫码就能传。</h3>
+              <p>PC 端开启临时会话，手机浏览器直接收发照片、文件和文字，不加入可信设备。</p>
+              <a class="card-link" href="#browser"><span class="button-copy">浏览器模式</span> <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </section>
+
+        <section class="showcase section-cream" id="screenshot" aria-labelledby="screenshot-title">
+          <div class="showcase-copy" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">MOMENT → DESKTOP</span></p>
+            <h2 id="screenshot-title">手机截屏，<br><em>不用离开手。</em></h2>
+            <p>截图是手机上最常见的“稍后处理”。NearFlow 把这段等待缩短：找到截图、等文件稳定、发到默认电脑，交给后台队列完成。</p>
+            <div class="showcase-points">
+              <span><b>01</b> 默认电脑自动接收</span>
+              <span><b>02</b> 断网后自动排队重试</span>
+              <span><b>03</b> 电脑收件箱可直接打开</span>
+            </div>
+          </div>
+          <div class="showcase-visual screenshot-visual" data-reveal>
+            <div class="phone-screenshot">
+              <div class="screenshot-status"><span>9:41</span><span>● ● ▰</span></div>
+              <div class="screenshot-top"><span class="back-arrow">‹</span><span>任务详情</span><span>•••</span></div>
+              <div class="screenshot-preview"><div class="preview-gradient"><span>NearFlow</span><strong>刚刚截下的<br>这一刻</strong><i></i></div><span class="preview-badge">SCREENSHOT.PNG</span></div>
+              <div class="screenshot-progress"><div><strong>正在发送到</strong><span>MacBook Pro</span></div><strong>82%</strong></div>
+              <div class="progress-track"><i></i></div>
+              <div class="screenshot-footer"><span><b></b> 安全传输中</span><span>2.4 MB</span></div>
+            </div>
+            <div class="floating-toast"><span class="toast-check">✓</span><div><strong>已到达电脑</strong><small>Screenshot.png · 刚刚</small></div></div>
+          </div>
+        </section>
+
+        <section class="batch-section section-light" id="batch" aria-labelledby="batch-title">
+          <div class="batch-visual" data-reveal>
+            <div class="batch-card">
+              <div class="batch-card-heading"><div><small>批量导出</small><strong>旅行照片</strong></div><span>24 项</span></div>
+              <div class="batch-album"><span class="album-art album-art-one"></span><span class="album-art album-art-two"></span><span class="album-art album-art-three"></span><span class="album-art album-art-four"></span><b>+20</b></div>
+              <div class="batch-destination"><span class="batch-computer-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="1" /><path d="M8 21h8M12 18v3" /></svg></span><div><small>导出到</small><strong>MacBook Pro</strong></div><span class="batch-check">✓</span></div>
+              <div class="batch-options"><span><i></i>按日期归档</span><span><i></i>保留原名</span><span><i></i>仅 Wi‑Fi</span></div>
+              <div class="batch-progress"><div><span>已完成 18 / 24</span><strong>75%</strong></div><i><b></b></i></div>
+            </div>
+            <div class="batch-sticker"><span>✓</span><div><strong>同名同内容</strong><small>自动跳过，不覆盖</small></div></div>
+          </div>
+          <div class="batch-copy" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">ONE TAP, WHOLE ALBUM</span></p>
+            <h2 id="batch-title">一整个相册，<br><em>一次交给电脑。</em></h2>
+            <p>不再一张张勾选、不再担心重名覆盖。选择照片和文件，设定归档方式，NearFlow 会把批量任务交给可靠的传输队列。</p>
+            <div class="showcase-points"><span><b>01</b> 最多一次选择 100 项</span><span><b>02</b> 同名同内容自动跳过</span><span><b>03</b> 断网后保留任务并重试</span></div>
+          </div>
+        </section>
+
+        <section class="clipboard-section section-dark" id="clipboard" aria-labelledby="clipboard-title">
+          <div class="clipboard-heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-copy">CLIPBOARD, WITHOUT THE LOOP</span></p>
+            <h2 id="clipboard-title">剪贴板不会绕路。</h2>
+            <p>从手机复制一段地址，在电脑上直接粘贴。它只在你的设备之间走，不需要把内容交给任何聊天窗口。</p>
+          </div>
+          <div class="clipboard-visual" data-reveal>
+            <div class="clipboard-device clipboard-phone"><span class="clipboard-device-label">iPhone</span><div class="clipboard-paper"><small>已复制</small><strong>设计灵感 · NearFlow</strong><span>nearflow.app/design</span></div></div>
+            <div class="clipboard-route"><span>局域网</span><i><b></b></i><span>约 350 ms</span></div>
+            <div class="clipboard-device clipboard-desktop"><span class="clipboard-device-label">MacBook Pro</span><div class="clipboard-paper"><small>剪贴板已同步</small><strong>设计灵感 · NearFlow</strong><span>⌘ V 即可粘贴</span></div></div>
+          </div>
+        </section>
+
+        <section class="browser-section section-light" id="browser" aria-labelledby="browser-title">
+          <div class="browser-heading" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">NO APP REQUIRED</span></p>
+            <h2 id="browser-title">朋友的手机，<br><em>也能马上用。</em></h2>
+            <p>电脑端安装 NearFlow 后，开启一个短期访客会话。对方扫码，浏览器里就能传，不下载、不注册、不留下长期信任。</p>
+            <a class="button button-dark" href="#download"><span class="button-copy">了解 PC 端</span> <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="browser-visual" data-reveal>
+            <div class="browser-topbar"><span class="browser-dots"><i></i><i></i><i></i></span><span class="browser-address">nearflow.local / guest</span><span class="lock-icon">⌁</span></div>
+            <div class="browser-content">
+              <div class="browser-brand"><span><svg viewBox="0 0 64 64" width="14" height="14" aria-hidden="true"><path d="M19 44C32 45 32 20 45 20" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/><circle cx="19" cy="44" r="6.5" fill="#fff"/><circle cx="45" cy="20" r="6.5" fill="#fff"/><circle cx="32" cy="32.4" r="5.5" fill="#F7A35C"/></svg></span><strong>邻传</strong><span class="browser-session">会话有效 · 04:32</span></div>
+              <p class="browser-eyebrow">ONE-TIME LOCAL BRIDGE</p>
+              <h3>照片和文件，<br>只穿过眼前这张网络。</h3>
+              <div class="browser-pc-card"><span class="mini-pc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="1" /><path d="M8 21h8M12 18v3" /></svg></span><div><small>已连接电脑</small><strong>MacBook Pro</strong><span>macOS · 192.168.1.18</span></div><b>在线</b></div>
+              <div class="browser-actions"><div><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" /><circle cx="9" cy="9" r="1.5" /><path d="m5 17 4-4 3 3 2-2 5 5" /></svg></span><strong>照片或拍照</strong><small>打开相册或相机</small></div><div><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h5M9 13h6M9 17h4" /></svg></span><strong>选择文件</strong><small>PDF、文档、压缩包</small></div></div>
+              <div class="browser-privacy"><span>⌁</span><span>每个上传文件都需要电脑确认</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="steps-section section-cream" id="how-it-works" aria-labelledby="steps-title">
+          <div class="section-heading section-heading-centered" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">THREE SMALL STEPS</span></p>
+            <h2 id="steps-title">从“想传”到“已到”，<br>只需要三步。</h2>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card" data-reveal><span class="step-number">01</span><div class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M9 17h6M10 6h4" /></svg></div><h3>PC 端安装</h3><p>在 Windows、macOS 或 Linux 电脑启动 NearFlow，它是局域网里的稳定接收端。</p></article>
+            <article class="step-card" data-reveal><span class="step-number">02</span><div class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5zM8 12h8M12 8v8" /></svg></div><h3>靠近并连接</h3><p>可信设备扫码配对；临时设备扫描访客二维码，用浏览器直接进入。</p></article>
+            <article class="step-card" data-reveal><span class="step-number">03</span><div class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg></div><h3>内容抵达</h3><p>截图、照片、文件或文字到达电脑。大文件支持断点续传，状态始终可见。</p></article>
+          </div>
+        </section>
+
+        <section class="privacy-section section-dark" id="privacy" aria-labelledby="privacy-title">
+          <div class="privacy-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-copy">LOCAL BY DEFAULT</span></p>
+            <h2 id="privacy-title">你的内容，<br>不必先去云上。</h2>
+            <p>NearFlow 把“附近”当成边界。可信设备使用认证加密会话；访客模式是短期令牌和人工确认，结束后立即失效。</p>
+            <a class="text-link text-link-light" href="#download"><span class="button-copy">阅读隐私承诺</span> <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="privacy-list" data-reveal>
+            <div><span class="privacy-number">01</span><div><strong>不经过第三方服务器</strong><p>设备在同一局域网直接通信，账号和云盘不是前置条件。</p></div></div>
+            <div><span class="privacy-number">02</span><div><strong>每次传输都看得见</strong><p>接收确认、文件状态和临时会话倒计时，不让内容悄悄发生。</p></div></div>
+            <div><span class="privacy-number">03</span><div><strong>访客权限到期即清除</strong><p>手机浏览器不用安装应用，也不会因为一次分享变成长期可信设备。</p></div></div>
+          </div>
+        </section>
+
+        <section class="download-section section-coral" id="download" aria-labelledby="download-title">
+          <div class="download-copy" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-copy">READY WHEN YOU ARE</span></p>
+            <h2 id="download-title">先让电脑<br><em>靠近你。</em></h2>
+            <p>安装一台 PC 端，手机就可以用原生 App 或浏览器连接。NearFlow 支持 Windows、macOS 和 Linux。</p>
+            <div class="download-actions"><a class="button button-dark" href="#download"><span class="button-copy">下载桌面端</span> <span aria-hidden="true">↓</span></a><span class="download-note">发布包将通过 GitHub / Gitee Release 提供</span></div>
+          </div>
+          <div class="download-mark" data-reveal aria-hidden="true"><span><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><path d="M19 44C32 45 32 20 45 20" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/><circle cx="19" cy="44" r="6.5" fill="#fff"/><circle cx="45" cy="20" r="6.5" fill="#fff"/><circle cx="32" cy="32.4" r="5.5" fill="#F7A35C"/></svg></span><i></i><b></b></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-main"><a class="wordmark wordmark-footer" href="#top"><span class="wordmark-mark"><svg viewBox="0 0 64 64" width="20" height="20" aria-hidden="true"><path d="M19 44C32 45 32 20 45 20" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/><circle cx="19" cy="44" r="6.5" fill="#fff"/><circle cx="45" cy="20" r="6.5" fill="#fff"/><circle cx="32" cy="32.4" r="5.5" fill="#F7A35C"/></svg></span><span>邻传 <em>/ NearFlow</em></span></a><p>让设备彼此靠近。</p><div class="footer-links"><a href="#features">功能</a><a href="#privacy">隐私</a><a href="#download">下载</a><a href="#top">回到顶部 ↑</a></div></div>
+        <div class="footer-bottom"><span>© 2026 NearFlow</span><span>Local first. Human approved.</span></div>
+      </footer>
+    </div>
+  </body>
+</html>
